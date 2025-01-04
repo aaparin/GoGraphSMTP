@@ -251,7 +251,7 @@ func loadConfig(filename string) (Config, error) {
 }
 
 func main() {
-	config, err := loadConfig("GoSMTP.yaml")
+	config, err := loadConfig("config.yaml")
 	if err != nil {
 		log.Fatalf("Failed to load config: %v", err)
 	}
