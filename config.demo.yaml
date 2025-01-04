@@ -1,0 +1,10 @@
+azure:
+  client_id: "your-client-id"
+  client_secret: "your-client-secret"
+  tenant_id: "your-tenant-id"
+
+smtp:
+  address: ":25"
+  domain: "localhost"
+
+log_file: "/path/to/log/file.log"
