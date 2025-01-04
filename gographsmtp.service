@@ -1,0 +1,14 @@
+[Unit]
+Description=GoGraphSmtp SMTP to Graph API Bridge
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/local/bin/GoGraphSMTP
+Restart=always
+RestartSec=10
+WorkingDirectory=/etc/GoGraphSMTP
+
+[Install]
+WantedBy=multi-user.target
